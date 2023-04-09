@@ -1,0 +1,144 @@
+.full {
+}
+
+.page-container {
+  }
+
+  .form  {
+    background-color: pink;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 7% 73% 20%;
+  }
+
+  .navbar {
+    position: absolute;
+    background-color: #548D2E;
+    font-size: 1rem;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    height: 7%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    
+  }
+
+  .navbar a{
+    color: white;
+    text-decoration: none;
+    text-decoration: solid;
+    text-transform: uppercase;
+    float: left;
+    width: 20%;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+  }
+  
+  .navbar a:hover{
+    background-color: #30691A;
+    color : lightgrey;
+  }
+
+  .tcmglogo {
+    border-radius: 50%;
+    position: absolute;
+    height: 65%;
+    top: 10%;
+    bottom: 20%;
+    left: 3%;
+    box-shadow: 0 5px 4px rgba(0,0,0,1);
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 100%;
+    width: 100%;
+    height: 20%;
+    position:absolute;
+    bottom:0;
+    left: 0;
+    max-width: 100%;
+  }
+
+  .footersocial {
+    background-color: white;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+
+  .footersocial a{
+    background-color: transparent;
+  }
+
+
+  .footersocial i:hover{
+    background-color: black;
+    color: white;
+  }
+
+  .facebookblock i {
+    background-color: white;
+    color: black;
+    font-size: 6rem;
+  }
+  .facebookblock i:hover{
+    background-color: white;
+    color: blue;
+    font-size: 7rem;
+  }
+  
+  .instagramblock i {
+    background-color: white;
+    color: black;
+    font-size: 6rem;
+  }
+  .instagramblock i:hover{
+    background-color: white;
+    color: red;
+    font-size: 7rem;
+  }
+  .whatsappblock i {
+    background-color: white;
+    color: black;
+    font-size: 6rem;
+  }
+  .whatsappblock i:hover{
+    background-color: white;
+    color: green;
+    font-size: 7rem;
+  }
+  .googlepin i {
+    background-color: white;
+    color: black;
+    font-size: 6rem;
+  }
+  .googlepin i:hover{
+    background-color: white;
+    color: yellow;
+    font-size: 7rem;
+  }
+
+  .footerinfo {
+    color: white;
+    background-color: #548D2E;
+    display: grid;
+    grid-template-rows: 50%;
+  }
+
+  .info {
+    padding: 0.5rem;
+    justify-content: space-around;
+    font-size: 1.7rem;
+    text-align: left;
+    text-align: center;
+  }
+
+  .info a {
+  }
+
+  
