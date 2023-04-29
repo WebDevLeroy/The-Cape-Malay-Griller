@@ -1,0 +1,196 @@
+body {
+  overflow: hidden;
+  background-color: darkgreen;
+  padding: 0;
+  margin: 0;
+}
+
+  .form {
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+  }
+
+  .navbar {
+    height: 100%;
+    background-color: #548D2E;
+    text-align: center;
+  }
+
+  .navbar a {
+    height: 100%;
+    font-size: 200%;
+    color: white;
+    text-decoration: none;
+    width: 20%;
+    float: left;
+  }
+  
+  .navbar :hover{
+    background-color: #30691A;
+    color : lightgrey;
+  }
+
+  .middle {
+    display: grid;
+    grid-template-columns: 40% 58% 2%;
+  }
+
+  .middle .logo img {
+    padding: 1.5rem;
+    border-radius: 50%;
+    width: 70%;
+  }
+
+  .middle .slideshow {
+    top: 3.5rem;
+    display: flexbox;
+    position: absolute;
+    right: 12.5%;
+    overflow: hidden;
+    max-width: 40%;
+  }
+
+  .middle .slideshow figure{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 500%;
+    margin: 0;
+    animation: 15s slideshow infinite;
+  }
+
+   .middle .slideshow figure img{
+    position: relative;
+    max-height: 25rem;
+    float: left;
+    width: 20%;
+  }
+
+   @keyframes slideshow {
+      0% {
+          left:0;
+      }
+      20% {
+          left:0;
+      }
+      25% {
+          left:-100%;
+      }
+      45% {
+          left:-100%;
+      }
+      50% {
+          left:-200%;
+      }
+      70% {
+          left:-200%;
+      }
+      75% {
+          left:-300%;
+      }   
+      95% {
+          left:-300%;
+      }
+      100% {
+          left: -400%;
+      }
+   }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 35% 65%;
+  }
+
+  .footersocial {
+    background-color: white;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+
+  .footersocial a{
+    background-color: white;
+  }
+
+
+  .footersocial i:hover{
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+
+  .facebookblock i {
+    background-color: white;
+    color: black;
+    font-size: 300%;
+    height: 100%;
+    width: 100%;
+  }
+  .facebookblock i:hover{
+    background-color: white;
+    color: blue;
+    font-size: 250%;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .instagramblock i {
+    background-color: white;
+    color: black;
+    font-size: 300%;
+    height: 100%;
+    width: 100%;
+  }
+  .instagramblock i:hover{
+    background-color: white;
+    color: red;
+    font-size: 250%;
+    height: 100%;
+    width: 100%;
+  }
+  .whatsappblock i {
+    background-color: white;
+    color: black;
+    font-size: 300%;
+    height: 100%;
+    width: 100%;
+  }
+  .whatsappblock i:hover{
+    background-color: white;
+    color: green;
+    font-size: 250%;
+    height: 100%;
+    width: 100%;
+  }
+  .googlepin i {
+    background-color: white;
+    color: black;
+    font-size: 300%;
+    height: 100%;
+    width: 100%;
+  }
+  .googlepin i:hover{
+    background-color: white;
+    color: yellow;
+    font-size: 250%;
+    height: 100%;
+    width: 100%;
+  }
+
+  .footerinfo {
+    text-align: center;
+    color: white;
+    background-color: #548D2E;
+  }
+
+  .footerinfo .footerinfo {
+
+  }
+
+  .footer a{
+    top: 10px;
+    font-size: 200%;
+  }
